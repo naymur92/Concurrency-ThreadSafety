@@ -1,0 +1,13 @@
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 100
+
+# Naming / spacing preferences
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+PointerAlignment: Right   # "Right" → int* p;   ("Left" would be int *p;)
+BreakBeforeBraces: Attach # K&R style: if () {
+AllowShortFunctionsOnASingleLine: Empty
